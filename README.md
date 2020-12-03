@@ -1,0 +1,2 @@
+# gogo
+some go codes
