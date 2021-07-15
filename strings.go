@@ -17,4 +17,12 @@ func main() {
 	fmt.Println(strings.TrimSpace("hello go "))
 	fmt.Println(strings.TrimLeft("hello go ", " "))
 	fmt.Println(strings.TrimRight("hello go ", " "))
+
+	var s string = "hello there"
+	var s2 string = s[4:7]
+	fmt.Println(s)
+	fmt.Println(s2)
+	var a rune = 'x'
+	var b byte = 'y'
+	fmt.Println(string(a), string(b))
 }
