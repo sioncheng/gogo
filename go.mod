@@ -3,6 +3,7 @@ module github.com/sioncheng/gogo
 go 1.16
 
 require (
+	github.com/google/go-cmp v0.5.6
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/labstack/gommon v0.3.0 // indirect
 	github.com/sioncheng/gomod-example v0.0.1

@@ -13,5 +13,5 @@ func main() {
 	if wrappedErr := errors.Unwrap(err1); wrappedErr != nil {
 		fmt.Println("wrappedErr", wrappedErr)
 	}
-	errors.Is(A, a)
+	errors.As(A, a)
 }
